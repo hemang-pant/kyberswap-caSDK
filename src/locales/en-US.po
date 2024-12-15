@@ -453,8 +453,8 @@ msgid "There is no deadline to claim your gas refunds. You can wait for more KNC
 msgstr "There is no deadline to claim your gas refunds. You can wait for more KNC to be accumulated before claiming them in order to save on gas fees."
 
 #: src/utils/errorMessage.ts
-msgid "An error occurred. Invalid Permit Signature."
-msgstr "An error occurred. Invalid Permit Signature."
+#~ msgid "An error occurred. Invalid Permit Signature."
+#~ msgstr "An error occurred. Invalid Permit Signature."
 
 #: src/components/SwapForm/SwapActionButton/index.tsx
 #: src/components/swapv2/LimitOrder/LimitOrderForm.tsx
@@ -531,6 +531,7 @@ msgstr "Transaction stuck? <0><1>See here</1></0>"
 #~ msgid "{0}% Locked"
 #~ msgstr "{0}% Locked"
 
+#: src/components/SwapForm/AddMEVProtectionModal.tsx
 #: src/components/SwapForm/SwapModal/ConfirmSwapModalContent.tsx
 #: src/components/TransactionConfirmationModal/index.tsx
 #: src/components/TransactionConfirmationModal/index.tsx
@@ -948,8 +949,8 @@ msgstr "Your fees are being automatically compounded so you earn more"
 
 #: src/components/swapv2/LimitOrder/OrderBook/TableHeader.tsx
 #: src/components/swapv2/LimitOrder/OrderBook/TableHeader.tsx
-msgid "({0})"
-msgstr "({0})"
+#~ msgid "({0})"
+#~ msgstr "({0})"
 
 #: src/pages/NotificationCenter/NotificationPreference/index.tsx
 msgid "Before you can subscribe to this notification, sign-in to a profile first. Go the <0>Profile</0> tab to sign-in with your wallet"
@@ -1197,6 +1198,7 @@ msgstr "Manage your pools."
 #~ msgstr "Harvest"
 
 #: src/components/SwapForm/SlippageSettingGroup.tsx
+#: src/components/SwapForm/SwapModal/SwapDetails/index.tsx
 msgid "MEV Protection"
 msgstr "MEV Protection"
 
@@ -1595,8 +1597,8 @@ msgstr "Failed"
 #~ msgstr "This campaign is participating in the Grant Campaign."
 
 #: src/utils/errorMessage.ts
-msgid "The requested account and/or method has not been authorized by the user."
-msgstr "The requested account and/or method has not been authorized by the user."
+#~ msgid "The requested account and/or method has not been authorized by the user."
+#~ msgstr "The requested account and/or method has not been authorized by the user."
 
 #: src/components/YieldPools/ElasticFarmGroup/FarmCard.tsx
 #: src/components/YieldPools/ElasticFarmGroup/index.tsx
@@ -1791,7 +1793,6 @@ msgstr "Gas Abuser"
 #~ msgid "Symbol"
 #~ msgstr "Symbol"
 
-#: src/components/Header/groups/SwapNavGroup.tsx
 #: src/pages/BuyCrypto/index.tsx
 #: src/pages/BuyCrypto/index.tsx
 msgid "Buy Crypto"
@@ -3005,8 +3006,8 @@ msgstr "Unwrap Error"
 #~ msgstr "1Y Range"
 
 #: src/utils/errorMessage.ts
-msgid "An error occurred. Try refreshing the price rate or increase max slippage."
-msgstr "An error occurred. Try refreshing the price rate or increase max slippage."
+#~ msgid "An error occurred. Try refreshing the price rate or increase max slippage."
+#~ msgstr "An error occurred. Try refreshing the price rate or increase max slippage."
 
 #: src/components/WalletPopup/SendToken/index.tsx
 #~ msgid "Sending {inputAmount} {0} to {recipient}"
@@ -3219,8 +3220,8 @@ msgstr "Go to Farms ↗"
 #~ msgstr "Farm Ended"
 
 #: src/components/SwapForm/AddMEVProtectionModal.tsx
-msgid "<0>MEV</0> Protection safeguards you from front-running attacks on Ethereum. We suggest you employing the <1>RPC endpoint</1> of reliable third-parties such as <2>Flashbots</2> or <3>MEVBlocker</3>.<4/><5/>Note that adding the RPC endpoint automatically is only available via the MetaMask wallet. If you would like to add the RPC endpoint to your wallet manually, please refer to this <6>guide</6>."
-msgstr "<0>MEV</0> Protection safeguards you from front-running attacks on Ethereum. We suggest you employing the <1>RPC endpoint</1> of reliable third-parties such as <2>Flashbots</2> or <3>MEVBlocker</3>.<4/><5/>Note that adding the RPC endpoint automatically is only available via the MetaMask wallet. If you would like to add the RPC endpoint to your wallet manually, please refer to this <6>guide</6>."
+#~ msgid "<0>MEV</0> Protection safeguards you from front-running attacks on Ethereum. We suggest you employing the <1>RPC endpoint</1> of reliable third-parties such as <2>Flashbots</2> or <3>MEVBlocker</3>.<4/><5/>Note that adding the RPC endpoint automatically is only available via the MetaMask wallet. If you would like to add the RPC endpoint to your wallet manually, please refer to this <6>guide</6>."
+#~ msgstr "<0>MEV</0> Protection safeguards you from front-running attacks on Ethereum. We suggest you employing the <1>RPC endpoint</1> of reliable third-parties such as <2>Flashbots</2> or <3>MEVBlocker</3>.<4/><5/>Note that adding the RPC endpoint automatically is only available via the MetaMask wallet. If you would like to add the RPC endpoint to your wallet manually, please refer to this <6>guide</6>."
 
 #: src/components/YieldPools/ElasticFarmModals/DepositModal.tsx
 #~ msgid "Deposit your liquidity positions (NFT tokens) first to enable farming. Only your in range liquidity positions (NFT tokens) will earn you farming rewards"
@@ -3759,8 +3760,8 @@ msgid "This is the USD value of the fees earned by your liquidity position immed
 msgstr "This is the USD value of the fees earned by your liquidity position immediately before the exploit."
 
 #: src/utils/errorMessage.ts
-msgid "Insufficient fee rewards amount, try to remove your liquidity without claiming fees for now and you can try to claim it later."
-msgstr "Insufficient fee rewards amount, try to remove your liquidity without claiming fees for now and you can try to claim it later."
+#~ msgid "Insufficient fee rewards amount, try to remove your liquidity without claiming fees for now and you can try to claim it later."
+#~ msgstr "Insufficient fee rewards amount, try to remove your liquidity without claiming fees for now and you can try to claim it later."
 
 #: src/components/Announcement/Popups/SnippetPopup.tsx
 #: src/pages/NotificationCenter/Profile/WarningSignMessage.tsx
@@ -3992,6 +3993,7 @@ msgid "Stake + Vote"
 msgstr "Stake + Vote"
 
 #: src/components/Header/groups/CampaignNavGroup.tsx
+#: src/components/Menu/index.tsx
 msgid "My Dashboard"
 msgstr "My Dashboard"
 
@@ -4015,6 +4017,7 @@ msgstr "Category"
 #~ msgstr "Static Fees"
 
 #: src/components/SwapForm/SlippageSettingGroup.tsx
+#: src/components/SwapForm/SwapModal/SwapDetails/index.tsx
 msgid "Add MEV Protection"
 msgstr "Add MEV Protection"
 
@@ -4779,8 +4782,8 @@ msgstr "Request"
 #~ msgstr "Website"
 
 #: src/utils/errorMessage.ts
-msgid "An error occurred. Please try increasing max slippage."
-msgstr "An error occurred. Please try increasing max slippage."
+#~ msgid "An error occurred. Please try increasing max slippage."
+#~ msgstr "An error occurred. Please try increasing max slippage."
 
 #: src/components/SwapForm/SwapActionButton/index.tsx
 #: src/components/SwapForm/SwapActionButton/index.tsx
@@ -5058,8 +5061,8 @@ msgid "New contents are available."
 msgstr "New contents are available."
 
 #: src/utils/errorMessage.ts
-msgid "Your current balance falls short of covering the required gas fee."
-msgstr "Your current balance falls short of covering the required gas fee."
+#~ msgid "Your current balance falls short of covering the required gas fee."
+#~ msgstr "Your current balance falls short of covering the required gas fee."
 
 #: src/pages/KyberDAO/Vote/ClaimConfirmModal.tsx
 msgid "Claim your KNC rewards"
@@ -5300,6 +5303,7 @@ msgstr "Code will expire in {0}{1}"
 #: src/components/Announcement/MoreAction.tsx
 #: src/components/Announcement/Popups/index.tsx
 #: src/components/SearchModal/CurrencySearch.tsx
+#: src/components/WalletPopup/Transactions/index.tsx
 #: src/pages/NotificationCenter/DeleteAllAlertsButton/index.tsx
 msgid "Clear All"
 msgstr "Clear All"
@@ -5923,6 +5927,10 @@ msgstr "Sending token"
 #~ msgid "{0}% Refund"
 #~ msgstr "{0}% Refund"
 
+#: src/pages/ElasticSnapshot/components/SelectTreasuryGrant.tsx
+msgid "Phase 3"
+msgstr "Phase 3"
+
 #: src/components/swap/AdvancedSwapDetails.tsx
 #~ msgid "Routing through these tokens resulted in the best price for your trade"
 #~ msgstr "Routing through these tokens resulted in the best price for your trade"
@@ -5949,6 +5957,7 @@ msgstr "Sending token"
 
 #: src/components/Header/groups/CampaignNavGroup.tsx
 #: src/components/Header/groups/SwapNavGroup.tsx
+#: src/components/Menu/index.tsx
 #: src/components/swapv2/LimitOrder/useNotificationLimitOrder.tsx
 #: src/components/swapv2/LimitOrder/useNotificationLimitOrder.tsx
 #: src/pages/SwapV3/Tabs/LimitTab.tsx
@@ -6031,6 +6040,10 @@ msgstr "AMP factor x Liquidity in the pool. Amplified pools have higher capital 
 #: src/pages/About/AboutKyberSwap.tsx
 #~ msgid "KyberSwap is DeFi’s premier automated market maker, providing the best token prices for traders across multiple exchanges, and maximizing earnings for liquidity providers, in one decentralized platform."
 #~ msgstr "KyberSwap is DeFi’s premier automated market maker, providing the best token prices for traders across multiple exchanges, and maximizing earnings for liquidity providers, in one decentralized platform."
+
+#: src/components/SwapForm/AddMEVProtectionModal.tsx
+msgid "<0>MEV</0> Protection safeguards you from front-running attacks on Ethereum. We recommend using <1>KyberSwap's RPC endpoint</1> - powered by Blink to protect your transactions from front-running attacks and ensure a better trading experience.<2/><3/>Note that adding the RPC endpoint automatically is only available via the MetaMask wallet. If you are using another wallet or would like to add the RPC endpoint to your wallet manually, please refer to this <4>guide</4>. Please make sure you understand how it works and use at your own caution."
+msgstr "<0>MEV</0> Protection safeguards you from front-running attacks on Ethereum. We recommend using <1>KyberSwap's RPC endpoint</1> - powered by Blink to protect your transactions from front-running attacks and ensure a better trading experience.<2/><3/>Note that adding the RPC endpoint automatically is only available via the MetaMask wallet. If you are using another wallet or would like to add the RPC endpoint to your wallet manually, please refer to this <4>guide</4>. Please make sure you understand how it works and use at your own caution."
 
 #: src/components/Header/web3/NetworkModal/components/DraggableNetworkButton.tsx
 msgid "Coming Soon"
@@ -6555,8 +6568,8 @@ msgid "Search..."
 msgstr "Search..."
 
 #: src/utils/errorMessage.ts
-msgid "Pending request(s), please approve it in your wallet."
-msgstr "Pending request(s), please approve it in your wallet."
+#~ msgid "Pending request(s), please approve it in your wallet."
+#~ msgstr "Pending request(s), please approve it in your wallet."
 
 #: src/pages/BuyCrypto/index.tsx
 msgid "Step 1"
@@ -6569,6 +6582,10 @@ msgstr "Step 1"
 #: src/components/Tutorial/index.tsx
 msgid "To learn more about how to remove liquidity on KyberSwap Elastic, view <0> here</0>"
 msgstr "To learn more about how to remove liquidity on KyberSwap Elastic, view <0> here</0>"
+
+#: src/components/WalletPopup/Transactions/index.tsx
+msgid "Manually clear this transaction from the pending list. This will not affect its on-chain status."
+msgstr "Manually clear this transaction from the pending list. This will not affect its on-chain status."
 
 #: src/components/YieldPools/FarmingPoolAPRCell.tsx
 msgid "Estimated return from trading fees if you participate in the pool."
@@ -6730,8 +6747,8 @@ msgid "OFF"
 msgstr "OFF"
 
 #: src/utils/errorMessage.ts
-msgid "An error occurred. Refresh the page and try again. If the issue still persists, it might be an issue with your RPC node settings in Metamask."
-msgstr "An error occurred. Refresh the page and try again. If the issue still persists, it might be an issue with your RPC node settings in Metamask."
+#~ msgid "An error occurred. Refresh the page and try again. If the issue still persists, it might be an issue with your RPC node settings in Metamask."
+#~ msgstr "An error occurred. Refresh the page and try again. If the issue still persists, it might be an issue with your RPC node settings in Metamask."
 
 #: src/components/SearchModal/CurrencyList.tsx
 #~ msgid "Tokens from inactive lists. Import specific tokens below or click 'Manage' to activate more lists"
@@ -7420,6 +7437,7 @@ msgstr "Unstaking KNC"
 
 #: src/components/swapv2/LimitOrder/ExpirePicker.tsx
 #: src/components/swapv2/LimitOrder/ListOrder/ActionButtons.tsx
+#: src/components/WalletPopup/Transactions/index.tsx
 #: src/hooks/useLogin.tsx
 #: src/hooks/useSessionExpire.ts
 #: src/pages/ElasticSnapshot/components/TermAndPolicyModal.tsx
@@ -7853,8 +7871,8 @@ msgstr "DAO Governance"
 #~ msgstr "Farming Ranges"
 
 #: src/utils/errorMessage.ts
-msgid "Something went wrong. Please try again."
-msgstr "Something went wrong. Please try again."
+#~ msgid "Something went wrong. Please try again."
+#~ msgstr "Something went wrong. Please try again."
 
 #: src/components/Header/groups/EarnNavGroup.tsx
 #: src/components/Menu/index.tsx
@@ -8487,6 +8505,7 @@ msgstr "Select a network"
 #~ msgstr "Earn more due to compounding"
 
 #: src/components/Header/groups/CampaignNavGroup.tsx
+#: src/components/Menu/index.tsx
 msgid "Aggregator Trading"
 msgstr "Aggregator Trading"
 
@@ -8543,8 +8562,8 @@ msgstr "Your order to pay {mainMsg} was successfully filled"
 #~ msgstr "Do you wish to have a look?"
 
 #: src/utils/errorMessage.ts
-msgid "An error occurred. Refresh the page and try again."
-msgstr "An error occurred. Refresh the page and try again."
+#~ msgid "An error occurred. Refresh the page and try again."
+#~ msgstr "An error occurred. Refresh the page and try again."
 
 #: src/components/SwapForm/SwapModal/SwapDetails/index.tsx
 #: src/components/SwapForm/TradeSummary.tsx
@@ -8752,6 +8771,10 @@ msgstr "Gas fees is very high. You will lose your funds."
 #: src/components/swapv2/LimitOrder/index.tsx
 msgid "Note: Once your order is filled, you will receive {name} ({symbol})"
 msgstr "Note: Once your order is filled, you will receive {name} ({symbol})"
+
+#: src/pages/MarketOverview/index.tsx
+msgid "Market Overview"
+msgstr "Market Overview"
 
 #: src/components/swapv2/LimitOrder/ActionButtonLimitOrder.tsx
 #: src/components/swapv2/LimitOrder/ActionButtonLimitOrder.tsx
@@ -9008,6 +9031,10 @@ msgstr "Import"
 #: src/components/swapv2/TokenInfo/SecurityInfo/Content.tsx
 msgid "Yes"
 msgstr "Yes"
+
+#: src/components/WalletPopup/Transactions/index.tsx
+msgid "Clear Pending Transactions"
+msgstr "Clear Pending Transactions"
 
 #: src/pages/SwapV2/index.tsx
 #~ msgid "This is the estimated output amount. Do review the actual output amount in the confirmation screen."
@@ -9551,6 +9578,10 @@ msgstr "Place orders on thousands of tokens for"
 msgid "Swap between tokens on different chains"
 msgstr "Swap between tokens on different chains"
 
+#: src/components/WalletPopup/Transactions/index.tsx
+msgid "Clear All Pending Transactions"
+msgstr "Clear All Pending Transactions"
+
 #: src/pages/SwapV3/ApprovalModal.tsx
 msgid "Custom Allowance"
 msgstr "Custom Allowance"
@@ -9647,8 +9678,8 @@ msgstr "Learn more about our limit orders <0>here</0>."
 #~ msgstr "Stake Error"
 
 #: src/utils/errorMessage.ts
-msgid "Your chain is mismatched, please make sure your wallet is switch to the expected chain."
-msgstr "Your chain is mismatched, please make sure your wallet is switch to the expected chain."
+#~ msgid "Your chain is mismatched, please make sure your wallet is switch to the expected chain."
+#~ msgstr "Your chain is mismatched, please make sure your wallet is switch to the expected chain."
 
 #: src/components/TransactionSettings/AdvanceModeModal.tsx
 #~ msgid "<0>Degen Mode</0> turns off the 'Confirm' transaction prompt and allows high slippage trades that can result in bad rates and lost funds."
@@ -9680,6 +9711,7 @@ msgstr "Opt Out"
 #~ msgstr "to Centralized Exchanges"
 
 #: src/components/Header/groups/CampaignNavGroup.tsx
+#: src/components/Menu/index.tsx
 msgid "Campaigns"
 msgstr "Campaigns"
 
@@ -9849,8 +9881,8 @@ msgid "However, in the event of a security breach on our partners platform, Kybe
 msgstr "However, in the event of a security breach on our partners platform, KyberSwap won't assume any liability for any losses incurred."
 
 #: src/utils/errorMessage.ts
-msgid "User rejected the transaction."
-msgstr "User rejected the transaction."
+#~ msgid "User rejected the transaction."
+#~ msgstr "User rejected the transaction."
 
 #: src/pages/NotificationCenter/CreateAlert/ConfirmModal.tsx
 msgid "Alert Created"
@@ -10337,8 +10369,8 @@ msgid "Confirm Swap Details"
 msgstr "Confirm Swap Details"
 
 #: src/utils/errorMessage.ts
-msgid "Insufficient ERC20 balance to pay gas fee"
-msgstr "Insufficient ERC20 balance to pay gas fee"
+#~ msgid "Insufficient ERC20 balance to pay gas fee"
+#~ msgstr "Insufficient ERC20 balance to pay gas fee"
 
 #: src/components/Tutorial/TutorialSwap/constant.ts
 #~ msgid "KyberAI - Ape Smart!"
@@ -10965,10 +10997,11 @@ msgid "Sending {inputAmount} {inSymbol} to {recipient}"
 msgstr "Sending {inputAmount} {inSymbol} to {recipient}"
 
 #: src/components/Menu/index.tsx
-msgid "Language"
-msgstr "Language"
+#~ msgid "Language"
+#~ msgstr "Language"
 
 #: src/components/Header/groups/CampaignNavGroup.tsx
+#: src/components/Menu/index.tsx
 msgid "Referral"
 msgstr "Referral"
 
@@ -11053,6 +11086,10 @@ msgstr "You don't have sufficient fund for this transaction."
 #: src/pages/NotificationCenter/Profile/ImportAccountModal/index.tsx
 msgid "Import Profile"
 msgstr "Import Profile"
+
+#: src/components/WalletPopup/Transactions/index.tsx
+msgid "Are you sure you want to clear all pending transactions? This will remove them from your list but will not affect their status on-chain."
+msgstr "Are you sure you want to clear all pending transactions? This will remove them from your list but will not affect their status on-chain."
 
 #: src/components/swapv2/LimitOrder/LimitOrderForm.tsx
 msgid "Order Placed"
