@@ -29,8 +29,14 @@ import ReceiveToken from './ReceiveToken'
 import RewardCenter from './RewardCenter'
 import ListTransaction from './Transactions'
 import { View as getView } from './type'
+import { getUnifiedBalance, useCaSdkAuth } from 'components/SwapForm/hooks/useCA'
 
 export const HANDLE_CLASS_NAME = 'walletPopupDragHandle'
+
+const ca = await useCaSdkAuth();
+const userBalance = await getUnifiedBalance();
+
+
 
 const IconWrapper = styled.div`
   display: flex;
@@ -186,7 +192,7 @@ export default function WalletView({
       <AccountInfo
         toggleShowBalance={toggleShowBalance}
         showBalance={showBalance}
-        totalBalanceInUsd={hasNetworkIssue ? '--' : totalBalanceInUsd}
+        totalBalanceInUsd={hasNetworkIssue ? '--' : userBalance}
         onClickBuy={handleClickBuy}
         onClickReceive={handleClickReceive}
         onClickSend={handleClickSend}
