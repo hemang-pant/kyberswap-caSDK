@@ -42,7 +42,7 @@
     "ChromeAndroid >= 52"
   ],
   "dependencies": {
-    "@arcana/ca-sdk": "^0.0.1-beta.13",
+    "@arcana/ca-sdk": "^0.0.1-beta.11",
     "@0xsquid/sdk": "^2.8.24",
     "@apollo/client": "^3.7.1",
     "@blocto/wagmi-connector": "^2.0.4",
